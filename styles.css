@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&family=Tillana:wght@700&display=swap');
+/* To remove all preset margin from elements of entire document (use *) */
+*{
+  color: #7B2869;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav{
+  /* D61355 820000  A10035 */
+  background-color: #9D3C72;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  padding: 20px;
+}
+a:hover{
+  color: #7B2869;
+}
+/* Profile section */
+.profile{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: url('background.jpg');
+  color: #7B2869;
+}
+.profile img{
+  padding-top: 20px;
+  height: 300px;
+  width:300px;
+}
+.profile p{
+  margin: 20px;
+  font-size: 22px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+#profile span{
+  width: 25%;
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+}
+button{
+  padding: 14px 28px;
+  border-radius: 15px;
+  margin: 3% 3% auto;
+  background-color: #9D3C72;
+  border: none;
+  font-family: 'Open Sans';
+}
+button:hover{
+  box-shadow: 0 2px 4px 0 #ffffff;
+}
+/* About section */
+.about, .skills, .work, .contact{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#about{
+  height: 400px;
+   background: #E9EDC9; */
+}
+h2{
+  padding-bottom: 10px;
+  font-family: 'Poppins';
+  font-size: 2rem;
+  font-weight: bold;
+}
+.fonticons, .about-text{
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  align-self: center;
+}
+.about-text p, .skills span, .work p, .contact p{
+  /* text-align: center; */
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  padding: 0 15px;
+}
+.fonticons{
+  font-size: 30px;
+}
+
+/*Skills section  */
+#skills{
+  height: 400px;
+  background: url('background.jpg');
+}
+.progress{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.progress progress{
+  width: 150%;
+}
+
+/* doesn't work */
+.bar{
+  height: 20px;
+  color: red;
+}
+/* Work */
+#work{
+  height: 500px;
+  background: #E9EDC9;
+}
+.work-pics{
+  text-align: center;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  height: 250px; */
+  margin-top: 30px;
+}
+.card img{
+  border-radius: 30%;
+  padding: 20px;
+  width: 380px;
+  height: 250px;
+}
+.contact{
+  background: url('background.jpg');
+  height: 300px;
+}
+#footer{
+  text-align: center;
+  padding: 5%;
+}
+.footer-icon{
+  align-items: center;
+  font-size: 30px;
+  margin: 20px;
+}
+.footer-icon:hover{
+
+  color: #ffffff;
+}
+.Copyright{
+  padding-top: 50px;
+}
